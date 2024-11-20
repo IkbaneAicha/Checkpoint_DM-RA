@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decision Making and Recursion Tasks</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <h1>Decision Making & Recursion Tasks</h1>
+    <div class="container">
+        <div class="input-group">
+            <h3>Leap Year Checker</h3>
+            <label for="year">Enter Year:</label>
+            <input type="number" id="year" placeholder="Enter a year" />
+            <button onclick="checkLeapYear()">Check Leap Year</button>
+            <div class="result" id="leap-year-result"></div>
+        </div>
+
+        <div class="input-group">
+            <h3>Ticket Pricing</h3>
+            <label for="age">Enter Age:</label>
+            <input type="number" id="age" placeholder="Enter your age" />
+            <button onclick="checkTicketPrice()">Check Ticket Price</button>
+            <div class="result" id="ticket-price-result"></div>
+        </div>
+
+        <div class="input-group">
+            <h3>Fibonacci Sequence</h3>
+            <label for="fib-num">Enter a number for Fibonacci:</label>
+            <input type="number" id="fib-num" placeholder="Enter a number" />
+            <button onclick="generateFibonacci()">Generate Fibonacci</button>
+            <div class="result" id="fibonacci-result"></div>
+        </div>
+
+        <div class="input-group">
+            <h3>Palindrome Checker</h3>
+            <label for="palindrome-str">Enter a string:</label>
+            <input type="text" id="palindrome-str" placeholder="Enter a string" />
+            <button onclick="checkPalindrome()">Check Palindrome</button>
+            <div class="result" id="palindrome-result"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
